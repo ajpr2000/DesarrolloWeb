@@ -1,0 +1,158 @@
+
+.encabezado{
+    display: flex;
+    margin: 0px auto;
+}
+
+.encabezado img{
+    margin:  0px auto;
+    width: 400px;
+}
+
+.articulo{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.articulo h1{
+    text-align: center;
+}
+
+.parrafo-articulo {
+    display: flex;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.parrafo-articulo p{
+    text-align: justify;
+}
+
+.imagen-aticulo img{
+    display: flex;
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.titulo-comida-tipica {
+    text-align: center;
+    margin: 40px;
+}
+
+.container-card {
+    margin: 5px;
+    display: inline-block;
+}
+
+
+.card {
+    width: 250px;
+    height: 500px;
+    margin: 10px auto;
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card img{
+    width: 70%;
+    display: flex;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card-body {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body a{
+    display: flex;
+}
+
+.card-body button {
+    width: 60%;
+    margin: 4px auto;
+}
+
+.inflacion {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inflacion h2{
+    text-align: center;
+}
+
+.inflacionTable {
+    display: flex;
+    margin: 0px auto;
+}
+
+.inflacionTable table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 150px;
+}
+
+.informacion {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion h2{
+    text-align: center;
+}
+
+.informacion table{
+    margin: 0px auto;
+    text-align: center;
+}
+
+.informacion button{
+    margin: 40px 0px;
+}
+
+.footer {
+    display: flex;
+    margin: 0px auto;
+    margin: 200px 0px 0px 0px;
+    padding: 0px 0px 25px 0px;
+    background: linear-gradient(to bottom, #ffffff, #000000)
+}
+
+.body-footer {
+    margin: 0px auto;
+}
+
+.body-footer p{
+    text-align: center;
+}
+
+.footer-reds {
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 20px auto;
+    width: 265px;
+}
+
+.footer-reds a img{
+    margin: 5px 10px;
+    border-radius: 15px;
+}
